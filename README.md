@@ -53,7 +53,7 @@ for more details and code examples on using Oxylabs’ Amazon Scraper API.
 
 ### Output Example
 
-Here's the partial output sample that includes paid and organic Amazon search results:
+Here's a partial output sample that includes paid and organic Amazon search results:
 
 ```json
 {
