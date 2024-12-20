@@ -4,6 +4,67 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+### Free Amazon ASIN Scraper
+
+A free tool used to get Amazon ASIN numbers for a provided Amazon department page.
+
+### Prerequisites
+
+To run this tool, you need to have Python 3.11 installed in your system.
+
+### Installation
+
+Open up a terminal window, navigate to this repository and run this command:
+
+```make install```
+
+### Retrieving the URL of an Amazon page to scrape prices from
+
+First off, open up Amazon and select a department from which you want to scrape prices for products. 
+
+For this example, we'll be using the `Headphones` department.
+
+<img width="1008" alt="image" src="https://github.com/user-attachments/assets/1f20d5c2-59d6-4a97-b9af-2bef40b0fd40" />
+
+After the page loads, simply copy the URL in the browser and save it. We'll need it for scraping ASIN codes.
+
+### Scraping Amazon product ASIN codes
+
+To get ASIN codes from products listed on the department page you chose, simply run this command in your terminal:
+
+```make scrape URL="<amazon_department_page_url>"```
+
+With the URL we retrieved earlier, the command would look like this:
+
+```make scrape URL="https://www.amazon.com/s?i=specialty-aps&bbn=16225009011&rh=n%3A%2116225009011%2Cn%3A172541&ref=nav_em__nav_desktop_sa_intl_headphones_0_2_6_8"```
+
+Make sure to surround the URL with quotation marks, otherwise the tool might have trouble parsing it.
+
+After running the command, your terminal should look something like this:
+
+<img width="1023" alt="image" src="https://github.com/user-attachments/assets/ba3349e4-861f-4a33-8a1e-f15d5efef663" />
+
+### Retrieved data
+
+After the tool has finished running, you should see a file named `amazon_asin_data.csv` in your directory.
+
+The generated CSV file contains data with these columns inside it:
+
+- `title` - The title of the product.
+- `url` - The URL pointing to the product's Amazon page.
+- `asin_code` - The ASIN code of the product.
+
+The data should look something like this:
+
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/07d6f192-22f7-46ca-af27-366740c1563e" />
+
+### Notes
+
+In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
+
+### Scraping with Oxylabs API
+
+
 Amazon ASIN Scraper is a powerful tool that quickly fetches ASIN numbers
 of publicly available Amazon products. This short guide will demonstrate
 how to extract ASINs using Oxylabs’ Scraper API.
