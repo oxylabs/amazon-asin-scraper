@@ -14,8 +14,11 @@
     + [Notes](#notes)
     + [Scraping with Oxylabs API](#scraping-with-oxylabs-api)
   * [How it works](#how-it-works)
-    + [**Python code example**](#--python-code-example--)
     + [Output Example](#output-example)
+
+In this tutorial, we'll demonstrate how to collect Amazon ASIN (Standard Identification Number) data for free. 
+
+If you need this data on a bigger scale, please refer to the 2nd part of the tutorial, where we use Oxylabs API for extracting this data. 
 
 ### Free Amazon ASIN Scraper
 
@@ -77,10 +80,9 @@ In case the code doesn't work or your project is of bigger scale, please refer t
 
 ### Scraping with Oxylabs API
 
+Now, we'll demonstrate how to collect Amazon ASIN data with [Oxylabs API](https://oxylabs.io/products/scraper-api/web). Keep in mind that you'll need an active subscription for this part, whether that's a paid one or a free trial. 
 
-Amazon ASIN Scraper is a powerful tool that quickly fetches ASIN numbers
-of publicly available Amazon products. This short guide will demonstrate
-how to extract ASINs using Oxylabs’ Scraper API.
+To get a free, 7-day trial, please go to our self-service [dashboard](https://dashboard.oxylabs.io/en/). 
 
 ## How it works
 
