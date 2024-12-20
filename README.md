@@ -222,10 +222,6 @@ Here's a partial output sample that includes paid and organic Amazon search resu
 
 ```
 
-Amazon ASIN Scraper makes it easy to gather product ASIN numbers,
-empowering your web scraping pipeline with lighting-fast access to
-essential Amazon data.
-
 If you have any questions, feel free to contact our 24/7 support team
 via live chat or [<u>email</u>](mailto:support@oxylabs.io).
 
