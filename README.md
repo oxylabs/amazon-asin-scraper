@@ -4,6 +4,19 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
+- [Amazon ASIN Scraper](#amazon-asin-scraper)
+    + [Free Amazon ASIN Scraper](#free-amazon-asin-scraper)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
+    + [Retrieving the URL of an Amazon page to scrape prices from](#retrieving-the-url-of-an-amazon-page-to-scrape-prices-from)
+    + [Scraping Amazon product ASIN codes](#scraping-amazon-product-asin-codes)
+    + [Retrieved data](#retrieved-data)
+    + [Notes](#notes)
+    + [Scraping with Oxylabs API](#scraping-with-oxylabs-api)
+  * [How it works](#how-it-works)
+    + [**Python code example**](#--python-code-example--)
+    + [Output Example](#output-example)
+
 ### Free Amazon ASIN Scraper
 
 A free tool used to get Amazon ASIN numbers for a provided Amazon department page.
