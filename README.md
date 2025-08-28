@@ -87,7 +87,7 @@ To get a free, 7-day trial, please go to our self-service [dashboard](https://da
 ## How it works
 
 You can retrieve Amazon ASIN numbers by sending a request to our API,
-which will return the results in JSON or HTML format.
+which will return the results in JSON, HTML, or Markdown format.
 
 ### **Python code example**
 
