@@ -126,7 +126,7 @@ pprint(response.json())
 ```
 
 Visit our
-[<u>documentation</u>](https://docs.oxylabs.io/wmw8gbrbnajdf87/scraper-apis/e-commerce-scraper-api/amazon)
+[<u>documentation</u>](https://developers.oxylabs.io/api-targets/e-commerce/amazon)
 for more details and code examples on using Oxylabs’ Amazon Scraper API.
 
 ### Output Example
